@@ -21,7 +21,7 @@ class FileInput extends Component {
       isOver: 0,
       value: null,
       tempValue: null,
-      image: null,
+      image: props.image || null,
     };
 
     this.input = null;
